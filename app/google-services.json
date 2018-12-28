@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "707194032424",
+    "firebase_url": "https://freebee3-43ee9.firebaseio.com",
+    "project_id": "freebee3-43ee9",
+    "storage_bucket": "freebee3-43ee9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707194032424:android:77af621faf6ac4b3",
+        "android_client_info": {
+          "package_name": "com.example.haruna.freebee3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707194032424-gq2pnpf7v2tvdmq67hmi5idpm4hfp53e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwgK749dDxwdrH5idx0s8od7_c-dlZiuE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
