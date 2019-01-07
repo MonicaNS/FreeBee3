@@ -2,6 +2,8 @@ package com.example.haruna.freebee3;
 
         import java.util.ArrayList;
         import java.util.List;
+        import android.widget.CheckBox;
+
 
         import android.annotation.SuppressLint;
         import android.content.Context;
@@ -23,13 +25,13 @@ public class TableMainLayout extends RelativeLayout {
     // set the header titles
     String headers[] = {
             "         ",
-            "Saturday",
-            "Sunday",
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
+            " Saturday ",
+            " Sunday ",
+            " Monday ",
+            " Tuesday ",
+             "Wednesday",
+            " Thursday ",
+            " Friday ",
 
     };
 
@@ -105,7 +107,7 @@ public class TableMainLayout extends RelativeLayout {
 
 
                         "7:00 am ",
-                        "7:30 am " + x + " - multi-lines",
+                        "7:30 am ",
                         "8:00 am ",
                         "8:30 am ",
                         "9:00 am ",
@@ -310,8 +312,9 @@ public class TableMainLayout extends RelativeLayout {
 
         int loopCount = ((TableRow)this.tableB.getChildAt(0)).getChildCount();
         String info[] = {
-           //   sampleObject.header1,
-             /*   sampleObject.array[0],
+            //  sampleObject.header1,
+                "check1","check2", "check3", "check4","check5", "check6","check7"
+               /* sampleObject.array[0],
                 sampleObject.array[1],
                 sampleObject.array[2],
                 sampleObject.array[3],
@@ -322,11 +325,13 @@ public class TableMainLayout extends RelativeLayout {
         };
 
         for(int x=0 ; x<loopCount; x++){
-            TableRow.LayoutParams params = new TableRow.LayoutParams( headerCellsWidth[x+1],LayoutParams.MATCH_PARENT);
+            TableRow.LayoutParams params = new TableRow.LayoutParams( headerCellsWidth[x+1],LayoutParams.WRAP_CONTENT);
             params.setMargins(2, 2, 0, 0);
 
-            TextView textViewB = this.bodyTextView(info[x]);
-            taleRowForTableD.addView(textViewB,params);
+            CheckBox checkBox = new CheckBox(getContext());
+
+           // TextView textViewB = this.bodyTextView(info[x]);
+            taleRowForTableD.addView(checkBox,params);
         }
 
         return taleRowForTableD;

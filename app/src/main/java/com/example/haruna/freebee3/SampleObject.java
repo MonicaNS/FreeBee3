@@ -29,7 +29,7 @@ public class SampleObject {
                         String h42, String h43, String h44,  String h45,
                         String h46, String h47,  String h48){
 
-        array = new String[47];
+        array = new String[48];
         array[0] = header1;
         array[1] = header2;
         array[2] = header3;
