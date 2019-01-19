@@ -4,6 +4,11 @@
     <color name="colorPrimaryDark">#555959</color>
     <color name="colorAccent">#009e9e</color>
 
+
+    <color name="colorPrime">#00BCD4</color>
+    <color name="colorPrimeDark">#0097A7</color>
+    <color name="clrAccent">#CDDC39</color>
+
     <color name="bg_login">#26ae90</color>
     <color name="bg_register">#2e3237</color>
     <color name="bg_main">#428bca</color>
